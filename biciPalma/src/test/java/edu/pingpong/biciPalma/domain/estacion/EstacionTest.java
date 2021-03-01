@@ -1,4 +1,4 @@
-package edu.pingpong.biciPalma.domain.bicicleta;
+package edu.pingpong.biciPalma.domain.estacion;
 
 import static org.junit.Assert.assertEquals;
 
