@@ -19,6 +19,10 @@ class Anclajes {
         }
     }
 
+    Anclaje[] anclajes() {
+        return this.anclajes;
+    }
+
     int numAnclajes() {
         return this.anclajes.length;
     }
