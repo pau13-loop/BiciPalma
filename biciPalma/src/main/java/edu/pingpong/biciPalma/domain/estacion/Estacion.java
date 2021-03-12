@@ -65,7 +65,7 @@ public class Estacion {
         for(Anclaje anclaje : anclajes()) {
             numAnclaje++;
             if(anclaje.isOcupado()) {
-                System.out.println("Bicicleta: " + anclaje.getBici() + "anclada en el anclaje " + numAnclaje);
+                System.out.println("Bicicleta: " + anclaje.getBici() + " anclada en el anclaje " + numAnclaje);
         } else {
             System.out.println("Anclaje " + numAnclaje + " libre");
         }
