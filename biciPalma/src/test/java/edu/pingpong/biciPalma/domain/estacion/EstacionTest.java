@@ -21,4 +21,9 @@ public class EstacionTest {
 
         assertEquals(expected, estacion.toString());
     }
+
+    @Test
+    public void anclajesLibresTest() {
+        assertEquals(5, estacion.anclajesLibres());
+    }
 }
