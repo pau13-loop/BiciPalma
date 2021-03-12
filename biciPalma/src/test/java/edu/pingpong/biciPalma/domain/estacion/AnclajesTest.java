@@ -32,11 +32,11 @@ public class AnclajesTest {
     public void ocuparLiberarAnclajeTest() {
         anclajes.ocuparAnclaje(5, bici);
 
-        //Check anclaje ocupado
+        // Check anclaje ocupado
         assertTrue(anclajes.isAnclajeOcupado(5));
         assertFalse(anclajes.isAnclajeOcupado(4));
 
-        //Check liberar anclaje
+        // Check liberar anclaje
         anclajes.librerarAnclaje(5);
         assertFalse(anclajes.isAnclajeOcupado(5));
     }

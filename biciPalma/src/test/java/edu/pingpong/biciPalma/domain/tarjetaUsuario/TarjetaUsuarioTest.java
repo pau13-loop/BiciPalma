@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TarjetaUsuarioTest {
-    
+
     private TarjetaUsuario tarjeta;
 
     @Before
@@ -18,7 +18,7 @@ public class TarjetaUsuarioTest {
 
     @Test
     public void activaccionTest() {
-        
+
         assertFalse(tarjeta.isActivada());
 
         tarjeta.setActivada(true);

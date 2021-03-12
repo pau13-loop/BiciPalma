@@ -1,7 +1,7 @@
 package edu.pingpong.biciPalma.domain.bicicleta;
 
-public class Bicicleta implements Movil{
-    
+public class Bicicleta implements Movil {
+
     private final int id;
 
     public Bicicleta(int id) {

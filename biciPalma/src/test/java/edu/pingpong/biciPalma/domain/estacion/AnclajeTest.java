@@ -22,12 +22,6 @@ public class AnclajeTest {
     }
 
     @Test
-    public void getBiciTest() {
-        anclaje.anclarBici(bici);
-        assertEquals(999, anclaje.getBici());
-    }
-
-    @Test
     public void ocupadoTest() {
         assertFalse(anclaje.isOcupado());
 

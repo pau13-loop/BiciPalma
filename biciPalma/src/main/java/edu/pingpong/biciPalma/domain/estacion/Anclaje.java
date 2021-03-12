@@ -3,11 +3,12 @@ package edu.pingpong.biciPalma.domain.estacion;
 import edu.pingpong.biciPalma.domain.bicicleta.Movil;
 
 public class Anclaje {
-    
+
     private boolean ocupado = false;
     private Movil bici;
 
-    Anclaje() {}
+    Anclaje() {
+    }
 
     boolean isOcupado() {
         return this.ocupado;

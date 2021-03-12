@@ -53,7 +53,7 @@ public class EstacionTest {
         assertFalse(estacion.leerTarjetaUsuario(tarjeta));
 
         tarjeta.setActivada(true);
-        
+
         assertTrue(estacion.leerTarjetaUsuario(tarjeta));
     }
 
@@ -67,16 +67,16 @@ public class EstacionTest {
 
         assertEquals(5, estacion.anclajesLibres());
 
-        //We want to work with an activate user card from here
+        // We want to work with an activate user card from here
 
         TarjetaUsuario tarjeta = new TarjetaUsuario("Tomeu", true);
 
-        //In case there are no bikes at the station
+        // In case there are no bikes at the station
 
         estacion.retirarBicicleta(tarjeta);
 
         assertEquals(5, estacion.anclajesLibres());
-        
+
         // We add some bikes at the station to be able to take any of them
 
         Movil bici1 = new Bicicleta(756);
