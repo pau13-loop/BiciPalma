@@ -14,7 +14,7 @@
 
 ## Motivation
 
-I've done this kata really motivated beacause was one of the first ever programs i had to develop with the programming language Java. This kata has helped me to develop my skills working with the OOP programming paradigm and it made me apply the TDD process during all the kata, by this way has been abit easier to develop it. I start to feel that Java could be like the 4x4 programming language and I really like to imagine all the chances that gives you one time you are in control of what are you doing.  
+I've done this kata really motivated because being one of the first ever programs I had to develop with the programming language Java. This kata has helped me to develop my skills working with the OOP programming paradigm and it made me apply the TDD process during all the kata, by this way has been a bit easier to develop it. I start to feel that Java could be like the 4x4 programming language and I really like to imagine all the chances that gives you one time you are in control of what are you doing.
 
 ---
 
@@ -35,7 +35,7 @@ I've done this kata really motivated beacause was one of the first ever programs
 
 ## Reflections
 
-In my opinion this is a quite complex kata with and the people that doesn't have too much experience programming yet, like me, could find this kata harder than what they expected. This time I found myself in a bit of troubles trying to develop the logic of the program but it really liked me see how I've done to go over the problems appeared during the process and realize by myself how powerful and how many mistakes you can avoid applying the TDD process correctly. I'm completely sure that if I try this kata without do a TDD process I could spent so much time trying to get the software working like I could wanted. But after read all that don't be scared to try it if you are interested, unless feel free to try it, if it has happened to me it's becuase my short experience and after repeat it a few times I was so much more fluent than at the beggining. 
+In my opinion, this is a quite complex kata with and the people that don't have too much experience programming yet, like me, could find this kata harder than what they expected. This time I found myself in a bit of troubles trying to develop the logic of the program, but it really liked me see how I've done to go over the problems appeared during the process and realize with myself how powerful and how many mistakes you can avoid applying the TDD process correctly. I'm completely sure that if I try this kata without do a TDD process I could spend so much time trying to get the software working like I could wanted. But after reading all that, don't be scared to try it if you are interested, unless feel free to try it, if it has happened to me it's because my short experience and after repeat it a few times I was so much more fluent than at the beginning.
 
 ---
 
