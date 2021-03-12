@@ -1,7 +1,7 @@
 package edu.pingpong.biciPalma.domain.tarjetaUsuario;
 
-public class TarjetaUsuario implements Autenticacion{
-    
+public class TarjetaUsuario implements Autenticacion {
+
     private final String id;
     private boolean activada = false;
 
