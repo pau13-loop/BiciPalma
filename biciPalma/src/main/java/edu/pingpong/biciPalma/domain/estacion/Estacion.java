@@ -59,6 +59,29 @@ public class Estacion {
         }
     }
 
+    public boolean leerTarjetaUsuario(Autenticacion tarjeta) {
+        return tarjeta.isActivada();
+    }
+
+    public void retirarBicicleta(Autenticacion tarjeta) {
+
+        if(leerTarjetaUsuario(tarjeta)) {
+        Optional<Anclaje> anclajeOcupado = Arrays.stream(anclajes()).filter(a -> a.isOcupado()).findAny();
+        if(anclajeOcupado.isPresent()) {
+            mostrarBicicleta(anclajeOcupado.get().getBici());
+            anclajeOcupado.get().liberarBici();
+        }else {
+            System.out.println("No hay bcicletas libres");
+        }
+        }else{
+            System.out.println("La tarjeta de usuario no esta activada !");
+        }
+    }
+    
+    private void mostrarBicicleta(Movil bici) {
+        System.out.println("Número bicicleta: " + bici + " retirada !");
+    }
+
     public void consultarAnclajes() {
         int numAnclaje = 0;
 
@@ -71,4 +94,7 @@ public class Estacion {
         }
         }
     }
+    
+
+
 }
