@@ -48,6 +48,17 @@ public class Estacion {
         return Arrays.stream(anclajes()).filter(a -> !a.isOcupado()).count();
     }
 
+    
+    public void anclarBicicleta(Movil bici) {
+        Optional<Anclaje> anclajeLibre = Arrays.stream(anclajes()).filter(a -> !a.isOcupado()).findAny();
+        if(anclajeLibre.isPresent()) {
+            anclajeLibre.get().anclarBici(bici);
+        }
+        else{
+            System.out.println("No hay anclajes libres !");
+        }
+    }
+
     public void consultarAnclajes() {
         int numAnclaje = 0;
 
