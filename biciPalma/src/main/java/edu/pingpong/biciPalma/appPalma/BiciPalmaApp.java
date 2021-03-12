@@ -2,6 +2,7 @@ package edu.pingpong.biciPalma.appPalma;
 
 import edu.pingpong.biciPalma.domain.bicicleta.Bicicleta;
 import edu.pingpong.biciPalma.domain.estacion.Estacion;
+import edu.pingpong.biciPalma.domain.tarjetaUsuario.TarjetaUsuario;
 
 public class BiciPalmaApp 
 {
@@ -52,5 +53,22 @@ public class BiciPalmaApp
 		System.out.println("\n **** caso TEST consultar bicicletas ancladas **** \n");
 
 		estacion.consultarAnclajes();
+		
+		/** 
+		 * Caso TEST retirar bicicleta 
+		 */
+
+		System.out.println("\n **** caso TEST retirar bicicleta **** \n");
+
+		TarjetaUsuario tarjetaUsuario = new TarjetaUsuario("000456789", true);
+
+		System.out.println("¿tarjeta de usuario activada? (true/false): " 
+							+ estacion.leerTarjetaUsuario(tarjetaUsuario));
+
+		estacion.retirarBicicleta(tarjetaUsuario);
+
+		estacion.consultarAnclajes();
+
+		System.out.println("anclajesLibres: " + estacion.anclajesLibres());
 	}
 }
