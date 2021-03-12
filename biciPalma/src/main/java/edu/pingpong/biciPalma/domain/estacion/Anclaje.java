@@ -13,8 +13,8 @@ public class Anclaje {
         return this.ocupado;
     }
 
-    int getBici() {
-        return bici.getId();
+    Movil getBici() {
+        return this.bici;
     }
 
     void anclarBici(Movil bici) {
